@@ -10,5 +10,6 @@ This repository contains coursework completed as part of the **MS2A (Machine Lea
 - Data Protection (*Protection de données*)
 - Computer Vision (RDFIA)
 - Extreme Value Theory (*Valeurs extrêmes*)
+- Numerical Approximation (*Approximation numérique*)
 
 The repository includes practical assignments, projects, and related course materials.
