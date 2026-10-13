@@ -4,3 +4,14 @@ __pycache__/
 venv/
 .ipynb_checkpoints/
 .DS_Store
+
+# Downloaded datasets and generated experiment artifacts
+**/.data/
+**/.experiments-*/
+**/runs/
+events.out.tfevents.*
+*.pt
+*.pth
+
+# Large public dataset; download it separately when needed
+Deep Learning/student_tp7/data/training.1600000.processed.noemoticon.csv

@@ -1,0 +1,40 @@
+dataset_name: 'cifar10'
+data_dir: './.data'
+only_subset: null
+seed: 42
+
+batch_size: 128
+num_workers: 4
+augment: 'mirror'
+
+pooling: 'max'
+scales: 3
+filters: 32
+filters_max: 1024
+layers: 28
+widen_factor: 2
+
+num_epochs: 101
+learning_rate: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+pkeep: 0.5
+delta: 10            # Stop if no improvement for 'delta' epochs (set to null to disable)
+
+# Scheduler
+step_size: 30
+gamma: 0.1
+
+eval_steps: 1
+save_steps: 5
+log_dir: './.experiments'
+device: 'cuda'
+
+# DP-SGD parameters
+dp_delta: 1e-5
+max_grad_norm: 5
+noise_multiplier: 0.8
+max_physical_batch_size: 128
+
+expid: null          # Set to experiment ID if using multiple experiments
+num_experiments: null
