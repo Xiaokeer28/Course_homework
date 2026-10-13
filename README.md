@@ -1,6 +1,6 @@
 # Sorbonne University MS2A Coursework
 
-This repository contains coursework completed as part of the **MS2A (Mathematics, Statistics, and Learning)** program at Sorbonne University.
+This repository contains coursework completed as part of the **MS2A (Machine Learning, Statistics, and Algorithms)** program at Sorbonne University.
 
 ## Courses
 
